@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Tourism in Egypt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@200;400;700&display=swap" rel="stylesheet">
+</head>    
+<body>
+<section class= "header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <img class="nntty" src="./images/xmark-solid.svg" onclick="hideMenu()">
+                <ul>
+                    <li><a href="">الصفحة الرئيسية</a></li>
+                    <li class=page2><a>المحافظات</a>
+                    <ul class="sub-menu-1">
+                        <ul>
+                            <li><a href="Alexandria.html">الإسكندرية</a></li>
+                            <li><a href="Cairo.html">القاهرة</a></li>
+                            <li><a href="Luxor.html">الأقصر</a></li>
+                            <li><a href="Aswan.html">أسوان</a></li>
+                            <li><a href="Sinai.html">شمال سيناء</a></li>
+                            <li><a href="Gharbiya.html">الغربية</a></li>
+                            <li><a href="Matrouh.html">مطروح</a></li>
+                        </ul>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            <img class="nnttyy" src="./images/bars-solid.svg" onclick="showMenu()">
+        </nav>
+    
+<div class="text-box">
+    <h1>Come to Egypt</h1>
+    <p>يحتوي موقعنا على العديد من المعالم السياحية الشهيرة
+والكثير من المواقع الأثرية  التي تأخذ الزائرين في رحلة عبر التاريخ الفرعوني</p>
+    </div>
+    
+</section>
+    
+<section class="Text">
+    <h1>حضارة مصر</h1>
+    <p>واحدة من اقدم الحضارات في العالم</p>
+    
+    <div class="row">
+        <div class="Text-row">
+            <p>لقد تتابعت على أرض مصر حضارات متعددة فكانت مصر مهدا للحضارة الفرعونية، وحاضنة للحضارة الإغريقية والرومانية ومنارة للحضارة القبطية، وحامية للحضارة الإسلامية.</p>
+        </div>
+        <div class="Text-row">
+            <p>كما تقع مصر بموقع جغرافي متميز يربط بين قارتي آسيا وإفريقيا ويرتبط بقارة أوروبا عن طريق البحر الأبيض المتوسط. كل هذا أدى إلى قيام حضارة عرفت بأنها من أقدم الحضارات في التاريخ الإنساني</p>
+        </div>
+        <div class="Text-row">
+            <p>تاريخ مصر هو أطول تاريخ مستمر لدولة في العالم لما يزيد عن 7000 عام قبل الميلاد ، حيث تميزت مصر بوجود معالم سياحيه كثيرة في جميع المحافظات</p>
+        </div>
+    </div>
+</section>
+    
+<section class="Text2">
+    <h1>أشهر معالم مصر السياحية</h1>
+    
+    <div class="row2">
+        <div class="Textt-row">
+            <img src="./images/Alexandria Library.png">
+            <div class="layer">
+                <h3>مكتبة الإسكندرية</h3>
+            </div>
+        </div>
+        <div class="Textt-row">
+            <img src="./images/Giza Pyramids.png">
+            <div class="layer">
+                <h3>اهرامات الجيزة</h3>
+            </div>
+        </div>
+        <div class="Textt-row">
+            <img src="./images/Luxor Temple.png">
+            <div class="layer">
+                <h3>معبد الأقصر</h3>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<script>
+var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>  
+    
+</body>
+</html>
